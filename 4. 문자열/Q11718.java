@@ -4,7 +4,7 @@ public class Q11718 {
     public static void main(String[] args) {
         Scanner lines = new Scanner(System.in);
 
-        // 반복문
+        // 반복문 - hasNextLine: enter키로 구분
         while (lines.hasNextLine()) {
             String sentence = lines.nextLine();
             System.out.println(sentence);
